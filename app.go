@@ -80,7 +80,7 @@ func main() {
 				debugMessage.SetText("Audio Baixado!")
 			}
 		}
-		aDownload = true
+		aDownload = false
 		downloadProgress.SetValue(100)
 	}, window)
 	propsLabel := widget.NewLabel("")
